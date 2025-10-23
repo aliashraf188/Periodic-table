@@ -1,10 +1,10 @@
 td{
-    width: 80px;
-    height: 70px;
+    width: 70px;
+    height: 40px;
     border-radius: 5px;
     /* height: 5px; */
     text-align: center;
-    box-shadow: 4px 3px 3px 0px rgb(41, 39, 39);
+    box-shadow: 4px 3px 5px 4px rgb(124, 80, 124);
     /* border: none; */
 }
  h1 {
@@ -15,7 +15,12 @@ td{
      text-align: center;
      border-radius: 10px;
      box-shadow: 1px 5px 15px yellow;
-     margin: auto;
+     margin:auto;
+}
+h1:hover {
+    background-color: rgb(43, 133, 121);
+    color: white;
+    transform: scale(1.1);
 }
 .numb{
     line-height: 0%;
@@ -56,12 +61,6 @@ td{
 #table{
     margin: 80px auto;
 }
-h1:hover {
-    background-color: rgb(250, 22, 22);
-    color: white;
-    transform: scale(1.1);
-}
-
 .noor2:hover {
     background-color: rgb(108, 173, 170);
 }
