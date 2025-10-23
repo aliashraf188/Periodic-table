@@ -1,22 +1,35 @@
 td{
-    width: 40px;
-    border-radius: 3px;
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
     /* height: 5px; */
     text-align: center;
-    box-shadow: 4px 3px 3px 0px black;
+    box-shadow: 4px 3px 3px 0px rgb(41, 39, 39);
     /* border: none; */
-
+}
+ h1 {
+     background-color: lightblue;        
+     width: 400px;
+     line-height: 50px;
+     color: black;
+     text-align: center;
+     border-radius: 10px;
+     box-shadow: 1px 5px 15px yellow;
+     margin: auto;
 }
 .numb{
     line-height: 0%;
-    font-size: 5px;
+    font-size: 10px;
     font-weight: bold;
     /* border: none; */
 }
 .word{
-    /* border: none; */
     line-height: 0%;
-    /* font-size: 20px; */
+    font-weight: bold;
+}
+.word2{
+    line-height: 0%;
+    font-size: 13px;
     font-weight: bold;
 }
 .noor1{
@@ -39,4 +52,46 @@ td{
 }
 .noor7{
     background-color: rgb(211, 116, 190);
+}
+#table{
+    margin: 80px auto;
+}
+h1:hover {
+    background-color: rgb(250, 22, 22);
+    color: white;
+    transform: scale(1.1);
+}
+
+.noor2:hover {
+    background-color: rgb(108, 173, 170);
+}
+.noor1:hover {
+    background-color: rgb(108, 173, 170);
+}
+
+.noor3:hover {
+     background-color: rgb(108, 173, 170);
+}
+
+    .noor4:hover {
+     background-color: rgb(108, 173, 170);
+}
+
+.noor5:hover {
+     background-color: rgb(108, 173, 170);
+}
+.noor6:hover {
+     background-color: rgb(108, 173, 170);
+ }
+    
+.noor7:hover {
+     background-color: rgb(108, 173, 170);
+}
+
+.noor8:hover {
+     background-color: rgb(108, 173, 170);
+}
+
+.noor2:hover {
+     background-color: rgb(108, 173, 170);
 }
